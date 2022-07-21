@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor!</p>
+    <video poster="imagens/thumb.png" controls width="560" loop autoplay>
+        <source src="media/Meu-Video.m4v" type="video/m4v">
+        <source src="media/Meu-Video.webm" type="video/webm">
+        <source src="media/Meu-Video.mp4" type="video/mp4">
+        <p>O seu navegador não suporta a reprodução de vídeos!</p>
+    </video>
+    <!--Desta maneira podemos causar um tráfego muito grande no servidor do site, o que pode representar uma conta muito maior do que a pretendida-->
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0Uk29YmUbS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

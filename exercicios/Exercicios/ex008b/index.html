@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getelementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num}é IMPAR')
+        print('Fim do programa')
+    </code>
+    <p><strong>Com a tag &lt;pre&gt; fica assim:</strong></p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num}é IMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido!</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo o autor Luís Abreu, no seu livro HTML5:</p>
+    <blockquote cite="">
+        Quando o utilizador clica no botão imprimir, a função ImprimeInformação indica o número de ficheiros selecionados no controlo input e imprime o nome (propriedade <code>name</code>) e a data de ultima modificação (propriedade <code>lastModifiedDate</code>) de cada um desses ficheiros.
+    </blockquote>
+    <h2>Estou a estudar <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="cascading Style Sheets">CSS</abbr>. Estou a adorar!</h2>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl"></bdo></p>
+    <h1>A tabalhar com listas</h1>
+    <h2>Listas ordenadas</h2> <!--Listas em que a ordem faz diferença são representadas pela tag <ol>(order list)</ol>, dentro destas listas estão os icones (ícones de lista) representados por <li>(list icon)esta tag é opcional pelo que não é obrigatório fechar a tag</li> e fica desta forma-->
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Ligar para alguém</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para o trabalho</li>
+        <li>Almoçar</li>
+        <li>Voltar ao trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+        <!--É possível alterar o número em que começa a lista desta forma <ol type="1" start="4"> o start indica o número de inicio da contagem-->
+        <!--Podemos tambem alterar o ícone que corresponde a cada frase <ol type="aqui alteramos o ícone"--> 
+    </ol> 
+    <h2>Listas não ordenadas</h2> <!--Listas onde não interessa a ordem <ul>(unordered list)</ul> podemos também alterar os icone em type="disc/circle/square" disc é o que está definido por defeito, circle é um círculo com o interior vazio e square é um quadrado. Isto só é possível nas listas nao ordenadas-->
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Lista de definições</h2>
+    <dl><!--defenition lists ou listas de defenição-->
+        <dt>HTML</dt> <!--Defenition term ou termo de deifinição-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd><!--Descrição do termo-->
+        <dt>CSS</dt>
+        <dd>Liguagem de marcação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </dl>
+    <h1><strong>Lista dos meus jogos favoritos</strong></h1>
+    <strong>
+        <ul>
+            <li>Nintendo</li>
+            <ol>
+                <li>Mario Bros</li>
+                <ul>
+                    <li>Super Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+                <ul>
+                    <li>Ninja Gaiden III</li>
+                </ul>
+            </ol>
+            <li>Super Nintendo</li>
+            <ol>
+                <li>Super Mario World</li>
+                <li>Donkey Kong</li>
+                <ul>
+                    <li>Donkey Kong Coutry III</li>
+                    <li>Diddy´s Kong Quest</li>
+                </ul>
+            </ol>
+            <li>Playstation 1</li>
+            <ol>
+                <li>Final Fantasy</li>
+                <ul>
+                    <li>Final Fantasy VII</li>
+                    <li>Final Fantasy IX</li>
+                </ul>
+                <li>Castlevania</li>
+                <ul>
+                    <li>Simphony of the Night</li>
+                </ul>
+            </ol>
+        </ul>
+    </strong>
+</body>
+</html>

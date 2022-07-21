@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+    background-color: #599ACF;
+}
+
+header{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: fit-content;
+}
+
+nav{
+    background-color: #5DC2D9;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    padding-left: 12px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+
+}
+
+main{
+    background-color: #5DD9AB;
+    padding: 6px 0px;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+
+article > p{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    color:#599ACF;
+    text-align: center;
+    border-radius: 4px;
+
+}
+#redes-sociais{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#facebook-icon{
+    padding-left: 2px;
+    padding-right: 5px;
+}
+
+#facebook-icon:hover{
+    box-shadow: 4px 4px 4px black;
+    padding: 0px;
+}
+
+#insta-icon{
+    padding-right: 5px;
+}
+
+#insta-icon:hover{
+    box-shadow: 4px 4px 4px black;
+    padding: 0%;
+}
+
+#twitter-icon{
+    padding-right: 2px;
+}
+
+#twitter-icon:hover{
+    box-shadow: 4px 4px 4px black;
+    padding: 0%;
+}

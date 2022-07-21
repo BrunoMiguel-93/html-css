@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #2A6AF5, #1B8DDE, #1ED9FA);
+}
+
+h1{
+    text-align: center;
+}
+
+#text{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#text:hover{
+    background-color: yellow;
+}
+
+#text > p {
+    display: none;
+}
+
+#text:hover > p {
+    display: block;
+}
+
+#caixa{
+    background-color: white;
+    align-self: center;
+    width: 50%;
+    height: auto;
+    padding: 10%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}

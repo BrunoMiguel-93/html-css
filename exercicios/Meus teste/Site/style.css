@@ -1,0 +1,30 @@
+*{
+ /*configurações gerais das CSS*/
+}
+
+body {
+    background-color: #E9EBEE;
+}
+
+main {
+    background-color: #FFFFFF;
+    width: 650px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.rodape{
+    color: blue;
+    width: auto;
+    height: 5cm;
+}

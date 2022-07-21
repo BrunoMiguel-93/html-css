@@ -1,0 +1,22 @@
+@charset "UTF-8"
+
+* {
+    /*configurações gerais das CSS*/
+}
+
+body {
+    background-image: linear-gradient(to right, #D90452, #F20574, #F22998);
+}
+
+main {
+    background: white;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 8px 8px 8px black;
+}
+
+h1 {
+    text-align: center;
+}

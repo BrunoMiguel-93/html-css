@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+    font-family: 'Courier New', Courier, monospace;
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to right, #E02D89,#05A6F2, #05DBE8);
+    
+
+}
+
+main{
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 10px 10px 10px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto; /*faz com que o conteúdo que está dentro do main fique sempre centrado no site, independentemente do tamanho*/
+}
+
+h1{
+    color: #E0CF44;
+    text-align: center;
+    text-shadow: 1px 1px 0px #bcad37ce;
+}
+
+h2{
+    color: #94255E;
+
+}
