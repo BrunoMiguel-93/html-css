@@ -55,6 +55,7 @@ header > p {
     font-family: var(--font-padrao);
     max-width: 500px;
     margin: auto;
+    
 }
 nav{
     text-align: left;
